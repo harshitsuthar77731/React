@@ -1,9 +1,9 @@
 import React, { Component }  from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route,Routes,Link} from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Menu } from './pages/Menu';
-import { Contact } from './pages/Contact';
+import { Home } from '../my-app/src/pages/Home';
+import { Menu } from '../my-app/src/pages/Menu';
+import { Contact } from '../my-app/src/pages/Contact';
 
 const App = ()=>{
   
